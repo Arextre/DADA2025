@@ -1,0 +1,11 @@
+### **Project Idea 1: GFW Simulation and Attack Analysis**
+
+We plan to study the technical mechanisms behind the Great Firewall of China, focusing on how it identifies and blocks access to foreign websites. Our goal is to simulate a simplified version of the GFW within a controlled environment, reproducing basic filtering behaviors such as blocking access to selected domains or specific website fields. Based on this model, we aim to design a simple attack or bypass tool to evaluate the weaknesses of such firewalls, and suggest possible improvements.
+
+### **Project Idea 2: DNS-based Phishing Detection and Honeypot Monitoring**
+
+We came up with this idea to explores the detection of phishing and malicious activity using DNS behavior analysis and honeypot monitoring. First, we plan to deploy a low-interaction honeypot to collect attackers information such as source IP addresses, user agents, and DNS queries. Second, we will analyze DNS patterns typically associated with phishing domains and implement a lightweight DNS monitoring module to passively or actively identify suspicious activity. Our ultimate goal is to prototype a small-scale defensive system that combines honeypot logging and DNS-based detection to flag phishing attempts in a network environment(maybe we can pack it up to a simple script to be installed on our browser?).
+
+### **Project Idea 3: WPA3 Wi-Fi Attack Simulation and Defense Evaluation**
+
+We will investigate the security of WPA3-encrypted wireless networks. We aim to set up a test Wi-Fi environment using WPA3 and simulate specific attacks like potential man-in-the-middle. We will evaluate how the WPA3 protocol behaves under forced disconnection, and whether clients are vulnerable or recover securely. We will then assess the effectiveness of wireless intrusion detection/prevention systems (WIDS/WIPS) in this environment, and whether WPA3’s new features require updated detection rules or configurations. The goal is to understand how WPA3 networks withstand modern wireless attacks and how defensive systems can adapt accordingly.
